@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cart Container */
+.Cart-section {
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240103/pngtree-vibrant-border-a-fusion-of-ethnic-boho-patterns-and-tribal-art-image_13904343.png");
+    background-size: cover;
+}
+
+/* Title Styling */
+.cart-title {
+    font-size: 28px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+/* Empty Cart Message */
+.cart-empty-message {
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+}
+
+/* Cart Items Container */
+.cart-items-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Cart Item List */
+.cart-items-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Single Cart Item */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(221, 152, 24, 0.1); /* Slightly transparent orange */
+}
+
+/* Item Content */
+.cart-item-content {
+    flex: 1;
+}
+
+/* Product Name */
+.cart-item-name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Item Price */
+.cart-item-price {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Remove Button */
+.cart-remove-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+/* Total Container */
+.total-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Total Price */
+.cart-total {
+    font-size: 24px;
+    border-style: none;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:red;
+}
+.cart-total:hover{
+    background-color:orange;
+}

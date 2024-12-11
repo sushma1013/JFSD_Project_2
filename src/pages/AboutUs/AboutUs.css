@@ -1,0 +1,103 @@
+/* General Styling */
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/talented-child-doing-pottery_23-2151693881.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    height: auto;
+    
+}
+
+/* Header Section */
+.about-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;border-radius: 10px;
+    
+}
+
+.about-us-header h1 {
+    font-size: 36px;
+    color: #C16529;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    color:white;
+    margin-top: 10px;
+}
+
+/* Content Section */
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-statement,
+.artisans-story {
+    margin-bottom: 30px;
+}
+
+.mission-statement h2,
+.artisans-story h2 {
+    color: #D17A38;
+}
+
+.mission-statement p,
+.artisans-story p {
+    text-align: justify;
+}
+
+/* Explore Handicrafts Section */
+.explore-handicrafts {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.6); padding: 20px;border-radius: 10px;
+    
+}
+
+.explore-handicrafts h2 {
+    color: #D17A38;
+    margin-bottom: 15px;
+    
+}
+
+.explore-handicrafts p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.explore-button {
+    background-color: #D17A38;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #C16529;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-us-content {
+        padding: 15px;
+    }
+
+    .explore-handicrafts p {
+        font-size: 14px;
+    }
+}
